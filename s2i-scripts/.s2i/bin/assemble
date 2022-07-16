@@ -12,7 +12,7 @@ config_s2i
 
 echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
-DATE=`date "+F"`
+DATE=`date "+%F"`
 echo "$DATE" >> ./info.html
 echo "HttpD version: $HTTPD_VERSION" >> ./info.html
 echo "info file created and assmble file override" >> ./info.html
