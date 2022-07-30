@@ -12,7 +12,7 @@ config_s2i
 
 echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
-DATE=`date "+%F:%H:%M:%S"
+DATE=`date "+%F:%H:%M:%S"`
 echo "app created on $DATE">>./info.html
 echo "HTTPD version is: $HTTPD_VERSION">>./info.html
 echo "successfully created...." >> ./info.html
